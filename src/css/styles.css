@@ -168,3 +168,8 @@ button:hover {
 .hidden {
   display: none;
 }
+
+.load-more-btn {
+  margin: 32px auto;
+  width: 125px;
+}
