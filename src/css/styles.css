@@ -73,7 +73,11 @@ button:hover {
 
 .gallery-list-item {
   border: 1px solid #808080;
+  transition: transform ease-in-out 250ms;
+}
 
+.gallery-list-item:hover {
+  transform: scale(1.05);
 }
 
 .gallery-list-img {
